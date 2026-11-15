@@ -45,7 +45,8 @@ content:
           - name: category
             label: التصنيف
             type: select
-                          options:
+            options:
+               values:
                 - label: وجبة
                   value: food
                 - label: مشروب
