@@ -1,4 +1,3 @@
-
 media:
   input: media
   output: /media
@@ -55,10 +54,10 @@ content:
             type: select
             options:
               values:
-                - name: food
-                  label: وجبة
-                - name: drink
-                  label: مشروب
+                - label: وجبة
+                  value: food
+                - label: مشروب
+                  value: drink
 
           - name: price
             label: السعر بالريال
