@@ -1,0 +1,61 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: menu
+    label: إعدادات المنيو والأصناف
+    type: file
+    path: data/menu.json
+    format: json
+    fields:
+      - name: brand
+        label: اسم العلامة
+        type: string
+      - name: tagline
+        label: العبارة التعريفية
+        type: string
+      - name: menuTitle
+        label: عنوان المنيو
+        type: string
+      - name: intro
+        label: وصف قصير
+        type: string
+      - name: phone
+        label: رقم الاتصال
+        type: string
+      - name: whatsapp
+        label: رقم واتساب
+        type: string
+      - name: tiktok
+        label: رابط تيك توك
+        type: string
+      - name: items
+        label: أصناف المنيو
+        type: object
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{name}"
+        fields:
+          - name: name
+            label: اسم الصنف
+            type: string
+          - name: category
+            label: التصنيف
+            type: select
+            options:
+              - label: وجبة
+                value: food
+              - label: مشروب
+                value: drink
+          - name: price
+            label: السعر بالريال
+            type: number
+          - name: description
+            label: الوصف
+            type: text
+          - name: image
+            label: صورة الصنف
+            type: image
