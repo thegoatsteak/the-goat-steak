@@ -13,24 +13,31 @@ content:
       - name: brand
         label: اسم العلامة
         type: string
+
       - name: tagline
         label: العبارة التعريفية
         type: string
+
       - name: menuTitle
         label: عنوان المنيو
         type: string
+
       - name: intro
         label: وصف قصير
         type: string
+
       - name: phone
         label: رقم الاتصال
         type: string
+
       - name: whatsapp
-        label: رقم واتساب
+        label: رقم واتساب بصيغة دولية بدون +
         type: string
+
       - name: tiktok
         label: رابط تيك توك
         type: string
+
       - name: items
         label: أصناف المنيو
         type: object
@@ -42,21 +49,25 @@ content:
           - name: name
             label: اسم الصنف
             type: string
+
           - name: category
             label: التصنيف
             type: select
             options:
-               values:
-                - label: وجبة
-                  value: food
-                - label: مشروب
-                  value: drink
+              values:
+                - name: food
+                  label: وجبة
+                - name: drink
+                  label: مشروب
+
           - name: price
             label: السعر بالريال
             type: number
+
           - name: description
             label: الوصف
             type: text
+
           - name: image
             label: صورة الصنف
             type: image
