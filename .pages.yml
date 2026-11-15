@@ -45,11 +45,11 @@ content:
           - name: category
             label: التصنيف
             type: select
-            options:
-              - label: وجبة
-                value: food
-              - label: مشروب
-                value: drink
+                          options:
+                - label: وجبة
+                  value: food
+                - label: مشروب
+                  value: drink
           - name: price
             label: السعر بالريال
             type: number
