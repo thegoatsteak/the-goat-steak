@@ -1,6 +1,6 @@
 {
   "brand": "THE GOAT STEAK",
-  "tagline": "STEAK • FLAVOR • EXPERIENC",
+  "tagline": "STEAK • FLAVOR • EXPERIENCE",
   "menuTitle": "قائمة الطعام",
   "intro": "اختر وجبتك واستمتع بالتجربة",
   "phone": "0531076944",
@@ -11,19 +11,22 @@
       "name": "THE CLASSIC",
       "category": "food",
       "price": 49,
-      "description": "ستيك بقري برازيلي مشوي بعناية، مع صوص الستيك الكلاسيكي، ويُقدم مع البطاطس المهروسة والبطاطس المقلية."
+      "description": "ستيك بقري برازيلي مشوي بعناية، مع صوص الستيك الكلاسيكي، ويُقدم مع البطاطس المهروسة والبطاطس المقلية.",
+      "image": "/media/IMG_7114-1.jpeg"
     },
     {
       "name": "THE MANCHESTER",
       "category": "food",
       "price": 55,
-      "description": "ستيك بقري برازيلي مشوي بعناية، يعلوه الصوص البرتقالي الخاص، ويُقدم مع البطاطس المهروسة والبطاطس المقلية."
+      "description": "ستيك بقري برازيلي مشوي بعناية، يعلوه الصوص البرتقالي الخاص، ويُقدم مع البطاطس المهروسة والبطاطس المقلية.",
+      "image": "/media/IMG_1595-3.jpeg"
     },
     {
       "name": "GOAT SECRET",
       "category": "drink",
       "price": 14,
-      "description": "مزيج منعش من العنب والأناناس بنكهة خاصة."
+      "description": "مزيج منعش من العنب والأناناس بنكهة خاصة.",
+      "image": "/media/0D3B6908-EDE1-4EDF-A7DB-DC1C2A6B76A3-1.png"
     }
   ]
 }
